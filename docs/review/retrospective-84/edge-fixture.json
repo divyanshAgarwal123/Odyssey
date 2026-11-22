@@ -1,0 +1,7 @@
+{
+  "inputWithRawText": "400 without provider call",
+  "validatedDigest": "200",
+  "providerSchemaFailure": "502",
+  "secretMissing": "503",
+  "transport": "in-process edge and Gemini fixtures"
+}

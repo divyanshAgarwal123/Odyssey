@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "emptyHistory": true,
+  "reports": [
+    {
+      "width": 1360,
+      "requests": 3,
+      "rawTextFieldsTransmitted": false,
+      "copy": "in-browser clipboard fixture failure and retry",
+      "keyboard": "Escape and focus restoration",
+      "ai": "503, malformed reply, successful reply via intercepted loopback transport",
+      "errors": []
+    },
+    {
+      "width": 390,
+      "requests": 3,
+      "rawTextFieldsTransmitted": false,
+      "copy": "in-browser clipboard fixture failure and retry",
+      "keyboard": "Escape and focus restoration",
+      "ai": "503, malformed reply, successful reply via intercepted loopback transport",
+      "errors": []
+    }
+  ]
+}

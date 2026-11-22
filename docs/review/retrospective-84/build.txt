@@ -1,0 +1,21 @@
+
+> odyssey@0.0.0 build
+> tsc -b && vite build
+
+vite v8.2.2 building client environment for production...
+transforming...
+✓ 140 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   1.84 kB │ gzip:   0.84 kB
+dist/assets/index-C3OWyXCK.css   55.92 kB │ gzip:  11.38 kB
+dist/assets/index-D_HflD3v.js   801.46 kB │ gzip: 219.04 kB
+
+[33m[INEFFECTIVE_DYNAMIC_IMPORT] [0msrc/services/missionService.ts is dynamically imported by src/services/focusService.ts but also statically imported by src/hooks/useMissionTimer.ts, src/layouts/RootLayout.tsx, src/pages/Execute.tsx, src/pages/Home.tsx, src/pages/Journey.tsx, ..., dynamic import will not move module into another chunk.
+
+[plugin builtin:vite-reporter]
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
+✓ built in 269ms

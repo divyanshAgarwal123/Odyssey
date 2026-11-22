@@ -1,0 +1,12 @@
+
+> odyssey@0.0.0 test
+> vitest run
+
+
+ RUN  v5.0.5 /private/tmp/nsoc-odyssey84
+
+
+ Test Files  34 passed (34)
+      Tests  562 passed (562)
+   Start at  09:51:52
+   Duration  621ms (transform 60%, tests 23%, import 15%, worker 3%)

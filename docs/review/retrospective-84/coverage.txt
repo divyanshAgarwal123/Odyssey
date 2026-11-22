@@ -1,0 +1,24 @@
+
+> odyssey@0.0.0 test
+> vitest run src/lib/expeditionRetrospective.test.ts src/services/retrospectiveService.test.ts --coverage.enabled --coverage.include=src/lib/expeditionRetrospective.ts --coverage.include=supabase/functions/_shared/retrospective.ts --coverage.reporter=text --coverage.reporter=json --coverage.reportsDirectory=/tmp/nsoc-odyssey84-coverage
+
+
+ RUN  v5.0.5 /private/tmp/nsoc-odyssey84
+      Coverage enabled with v8
+
+
+ Test Files  2 passed (2)
+      Tests  9 passed (9)
+   Start at  09:51:27
+   Duration  164ms (import 30%, transform 30%, worker 30%, tests 10%)
+
+ % Coverage report from v8
+No files with missing coverage.
+2 files fully covered.
+
+=============================== Coverage summary ===============================
+Statements   : 100% ( 90/90 )
+Branches     : 100% ( 79/79 )
+Functions    : 100% ( 23/23 )
+Lines        : 100% ( 74/74 )
+================================================================================
